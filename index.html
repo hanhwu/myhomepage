@@ -11,7 +11,13 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-  </head>
+    
+    <script type="text/javascript">
+    function functionOne() { alert('You clicked the top text'); }
+    function functionTwo() { alert('You clicked the bottom text'); }
+    </script>
+       
+   </head>
   <body>
     <div class="wrapper">
       <header>
@@ -29,6 +35,10 @@
       </header>
       <section>
         <p>Hello world!  AAAAB</p>
+        <p><a href="#" onClick="functionOne();">Top Text</a></p>
+        <p><a href="javascript:functionTwo();">Bottom Text</a></p>
+ 
+        
 
 
 <h3>
